@@ -23,7 +23,7 @@
 - Page Object Model（POM）
 
 ## 📁 项目结构说明
-
+```bash
 pytest-saucedemo/
 │
 ├── data.yaml # 测试数据文件（登录+结账）
@@ -39,7 +39,7 @@ pytest-saucedemo/
 │
 ├── test_failed_*.png # 测试失败截图
 ├── test.log # 测试日志文件
-
+```
 ## 📸 测试报告展示
 
 生成 Allure 报告：
@@ -54,7 +54,7 @@ allure serve ./allure-results
 
 ## 安装依赖（建议使用虚拟环境）
 
-```b
+```bash
 pip install -r requirements.txt
 ```
 
