@@ -1,0 +1,8 @@
+2025-06-26 10:18:00,396 - INFO - 启动 WebDriver，打开浏览器：chrome
+2025-06-26 10:18:00,397 - INFO - 执行登录测试用例：{'email': '1011254211@qq.com', 'password': 12345678, 'url': 'https://bucd.pro/#/login'}
+2025-06-26 10:18:02,861 - INFO - 点击登录按钮完成
+2025-06-26 10:18:05,218 - INFO - 关闭 WebDriver
+2025-06-26 10:19:26,035 - INFO - 启动 WebDriver，打开浏览器：chrome
+2025-06-26 10:19:26,036 - INFO - 执行登录测试用例：{'email': '1011254211@qq.com', 'password': 12345678, 'url': 'https://bucd.pro/#/login'}
+2025-06-26 10:19:28,425 - INFO - 点击登录按钮完成
+2025-06-26 10:19:34,115 - INFO - 关闭 WebDriver
