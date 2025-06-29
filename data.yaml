@@ -1,0 +1,44 @@
+- username: "standard_user"
+  password: "secret_sauce"
+  expected: "success"
+  checkout:
+    first_name: "Alice"
+    last_name: "Smith"
+    postal_code: "88888"
+
+- username: "locked_out_user"
+  password: "secret_sauce"
+  expected: "locked"
+  checkout: null
+
+- username: "problem_user"
+  password: "secret_sauce"
+  expected: "success"
+  checkout:
+    first_name: "Bob"
+    last_name: "Lee"
+    postal_code: "12345"
+
+- username: "performance_glitch_user"
+  password: "secret_sauce"
+  expected: "success"
+  checkout:
+    first_name: "Carol"
+    last_name: "Ng"
+    postal_code: "54321"
+
+- username: "error_user"
+  password: "secret_sauce"
+  expected: "success"
+  checkout:
+    first_name: "David"
+    last_name: "Kim"
+    postal_code: "99999"
+
+- username: "visual_user"
+  password: "secret_sauce"
+  expected: "success"
+  checkout:
+    first_name: "Eva"
+    last_name: "Zhou"
+    postal_code: "55555"

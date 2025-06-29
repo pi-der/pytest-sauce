@@ -1,0 +1,21 @@
+[project]
+name = "pytestlearning_deepseek"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Pider", email = "piderbigcat@outlook.com"},
+]
+dependencies = []
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
