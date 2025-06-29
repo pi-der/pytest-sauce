@@ -47,17 +47,17 @@ pytest-saucedemo/
 生成 Allure 报告：
 
 # 运行测试并生成 Allure 报告数据
-pytest src/tests --alluredir=./allure-results
+```pytest src/tests --alluredir=./allure-results```
 
 # 启动本地服务器查看图形报告
-allure serve ./allure-results
+```allure serve ./allure-results```
 
 ## 🧪 快速开始
 
 # 安装依赖（建议使用虚拟环境）
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # 运行测试
-pytest src/tests -s
+```pytest src/tests -s```
 
 # 查看失败截图或 test.log 日志以排查问题
